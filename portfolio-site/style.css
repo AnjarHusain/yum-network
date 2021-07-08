@@ -20,7 +20,7 @@ h2 {
   font-weight: 500;
 }
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   color: red;
 }
@@ -66,6 +66,7 @@ h1 span {
 }
 .experience-area {
   background-image: url("images/exp-bg.png");
+  background: white, #72cfca;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -79,8 +80,18 @@ h1 span {
 }
 .experience-area div {
   box-shadow: 5px 7px 40px lightgray;
+  height: 60%;
+}
+.footer p {
+  text-align: center;
 }
 #fullstack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
 }
 #baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
 }
