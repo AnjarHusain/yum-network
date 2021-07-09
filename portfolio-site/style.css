@@ -4,6 +4,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section {
+  display: flex;
   height: 800px;
   padding-top: 20px;
   padding-bottom: 100px;
